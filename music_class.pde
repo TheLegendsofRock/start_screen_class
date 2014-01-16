@@ -6,7 +6,7 @@ class Music {
     music = loadImage("music.gif");
     d = 200;
     loc = new PVector(random(0, width-d/2), -d);
-    vel = new PVector(0, random(4, 8));
+    vel = new PVector(0, random(5, 10));
     acc = new PVector(random(-.05, .05), .05);
   }
   void display () {

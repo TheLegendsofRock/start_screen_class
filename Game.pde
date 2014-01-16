@@ -38,7 +38,7 @@ void draw() {
       m[i].display();
       m[i].drop();
     }
-    if (change >= 1500) {        
+    if (change >= 1000) {        
       old = current;
 
       if (index < m.length) {
